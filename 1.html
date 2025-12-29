@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form đặt lịch cơ bản</title>
+</head>
+<body>
+    <h1><strong>Form Đặt Lịch Tư Vấn Học Tập</strong></h1>
+    <form>
+        <label for="username">Họ và Tên:</label>
+        <input type="text" id="username" name="username">
+        <br><br>
+
+        <label for="datetimedatetime">Chọn ngày giờ:</label>
+        <input type="datetime-local" id="datetime" name="datetime">
+        <br><br>
+
+        <label for="service">Loại dịch vụ:</label>
+        <select id="service" name="service:">
+            <option value="learning consulting">Tư vấn học tập</option>
+            <option value="career guidance">Hướng nghiệp</option>
+        </select>
+        <br><br>
+
+        <label for="note">Ghi chú:</label>
+        <textarea id="note" name="note"></textarea>
+        <br><br>
+
+        <input type="submit" value="Đặt lịch">
+    </form>
+</body>
+</html>

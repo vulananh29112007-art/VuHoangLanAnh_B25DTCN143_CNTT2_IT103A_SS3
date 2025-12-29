@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập form đăng ký thành viên CLB CEO</title>
+</head>
+<body>
+    <form>
+        <label for="fullname">Họ và Tên:</label>
+        <input type="text" id="fullname" name="fullname">
+        <br><br>
+
+        <label for="date of birth">Ngày sinh:</label>
+        <input type="date" id="date of birth" name="date of birth">
+        <br><br>
+
+        <label for="gender">Giới tính</label>
+        <input type="radio" id="gender" name="gender" value="male">Nam
+        <input type="radio" id="gender" name="gender" value="female">Nữ
+        <br><br>
+
+        <label for="phone number">Số điện thoại</label>
+        <input type="number" id="phone number" name="phone number">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <br><br>
+
+        <label for="company">Tên công ty</label>
+        <input type="text" id="company" name="company">
+        <br><br>
+
+        <label for="address">Địa chỉ</label>
+        <textarea id="address" name="address"></textarea>
+        <br><br>
+
+        <label for="role">Vai trò trong công ty</label>
+        <select id="role" name="role">
+            <option value="role 1">Giám đốc điều hành (CEO)</option>
+        </select>
+        <br><br>
+
+        <label for="regulation">Quy mô công ty</label>
+        <select id="regulation" name="regulation">
+            <option value="small business">Doanh nghiệp nhỏ</option>
+        </select>
+
+        <label for="job">Ngành nghề công ty</label>
+        <input type="text" id="job" name="job">
+        <br><br>
+        
+        <label for="reason">Lý do tham gia câu lạc bộ</label>
+        <textarea id="reason" name="reason"></textarea>
+        <br><br>
+
+        <label for="experience">Kinh nghiệm lãnh đạo</label>
+        <textarea id="experience" name="experience"></textarea>
+        <br><br>
+
+        <label for="aim">Mục tiêu khi tham gia câu lạc bộ</label>
+        <textarea id="aim" name="aim"></textarea>
+        <br><br>
+
+        <label for="programme">Chương trình sự kiện mong muốn tham gia</label>
+        <input type="checkbox" id="programme" name="programme" value="networking">Networking
+        <input type="checkbox" id="programme" name="programme" value="workshops">Workshops
+        <input type="checkbox" id="programme" name="programme" value="seminar">Hội thảo
+        <br><br>
+
+
+        <label for="register">Đăng ký nhận bản tin:</label>
+        <input type="checkbox" id="register" name="register" value="yes">Có
+        <br><br>
+
+        <input type="submit" value="Đăng ký hội viên">
+
+    </form>
+</body>
+</html>
